@@ -105,10 +105,10 @@
             tapping-term-ms = <200>;
         };
 
-        w_hold_alt: w_hold_alt {
+        q_hold_alt: q_hold_alt {
             compatible = "zmk,behavior-mod-morph";
-            label = "W_HOLD_ALT";
-            bindings = <&kp W>, <&kp TAB>;
+            label = "Q_HOLD_ALT";
+            bindings = <&kp Q>, <&kp TAB>;
 
             #binding-cells = <0>;
             mods = <(MOD_LALT|MOD_LCTL)>;
@@ -121,9 +121,9 @@
 
         base {
             bindings = <
-           &kp Q  &w_hold_alt  &kp E                           &kp R      &kp T        &kp Y  &kp U    &kp I    &kp O       &kp P
-           &kp A  &kp S        &kp D                           &kp F      &kp G        &kp H  &kp J    &kp K    &kp L       &kp SEMI
-&kp LCTRL  &kp Z  &kp X        &kp C                           &kp V      &kp B        &kp B  &kp N    &kp M    &kp PERIOD  &kp COMMA  &questionmark
+           &q_hold_alt  &kp W  &kp E                           &kp R      &kp T        &kp Y  &kp U    &kp I    &kp O       &kp P
+           &kp A        &kp S  &kp D                           &kp F      &kp G        &kp H  &kp J    &kp K    &kp L       &kp SEMI
+&kp LCTRL  &kp Z        &kp X  &kp C                           &kp V      &kp B        &kp B  &kp N    &kp M    &kp PERIOD  &kp COMMA  &questionmark
                                &slash_hold_alt LEFT_ALT SLASH  &kp SPACE  &kp SPACE    &mo 2  &korean  &kp TAB
             >;
         };
