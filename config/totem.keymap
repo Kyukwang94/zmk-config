@@ -40,21 +40,22 @@
     };
 
     behaviors {
-        ctrl_q_tab: ctrl_q_tab {
-            compatible = "zmk,behavior-mod-morph";
-            label = "CTRL_Q_TAB";
-            bindings = <&kp Q>, <&kp TAB>;
-
-            #binding-cells = <0>;
-            mods = <(MOD_LCTL)>;
-            keep-mods = <(MOD_LCTL)>;
-        };
-
         questionmark: questionmark {
             compatible = "zmk,behavior-tap-dance";
             label = "QUESTIONMARK";
             #binding-cells = <0>;
             bindings = <&kp RIGHT_SHIFT>, <&kp QUESTION>;
+
+            tapping-term-ms = <200>;
+        };
+
+        enter: enter {
+            compatible = "zmk,behavior-tap-dance";
+            label = "ENTER";
+            #binding-cells = <0>;
+            bindings = <&kp SPACE>, <&kp ENTER>;
+
+            tapping-term-ms = <200>;
         };
     };
 
