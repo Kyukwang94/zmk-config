@@ -93,11 +93,11 @@
             tapping-term-ms = <200>;
         };
 
-        korean: korean {
+        second_layer: second_layer {
             compatible = "zmk,behavior-tap-dance";
-            label = "KOREAN";
+            label = "SECOND_LAYER";
             #binding-cells = <0>;
-            bindings = <&mo 1>, <&kp RIGHT_ALT>;
+            bindings = <&mo 1>, <&mo 2>;
 
             tapping-term-ms = <300>;
         };
@@ -156,10 +156,10 @@
 
         base {
             bindings = <
-           &q_hold_alt  &kp W  &kp E                           &kp R                               &kp T        &y_hold_one  &u_hold_two  &kp I    &kp O       &kp P
-           &kp A        &kp S  &kp D                           &kp F                               &kp G        &kp H        &kp J        &kp K    &kp L       &kp SEMI
-&kp LCTRL  &kp Z        &kp X  &kp C                           &kp V                               &kp B        &kp B        &kp N        &kp M    &kp PERIOD  &kp COMMA  &questionmark
-                               &slash_hold_alt LEFT_ALT SLASH  &space_hold_shift LEFT_SHIFT SPACE  &kp SPACE    &mo 2        &korean      &kp TAB
+           &q_hold_alt  &kp W  &kp E                           &kp R                               &kp T        &y_hold_one    &u_hold_two    &kp I    &kp O       &kp P
+           &kp A        &kp S  &kp D                           &kp F                               &kp G        &kp H          &kp J          &kp K    &kp L       &kp SEMI
+&kp LCTRL  &kp Z        &kp X  &kp C                           &kp V                               &kp B        &kp B          &kp N          &kp M    &kp PERIOD  &kp COMMA  &questionmark
+                               &slash_hold_alt LEFT_ALT SLASH  &space_hold_shift LEFT_SHIFT SPACE  &kp SPACE    &kp RIGHT_ALT  &second_layer  &kp TAB
             >;
         };
 
