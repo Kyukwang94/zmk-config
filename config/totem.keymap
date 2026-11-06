@@ -48,15 +48,6 @@
 
             tapping-term-ms = <200>;
         };
-
-        enter: enter {
-            compatible = "zmk,behavior-tap-dance";
-            label = "ENTER";
-            #binding-cells = <0>;
-            bindings = <&kp SPACE>, <&kp ENTER>;
-
-            tapping-term-ms = <200>;
-        };
     };
 
     keymap {
