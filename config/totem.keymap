@@ -75,6 +75,51 @@
             key-positions = <36 26>;
             timeout-ms = <150>;
         };
+
+        one {
+            bindings = <&kp NUMBER_1>;
+            key-positions = <36 0>;
+        };
+
+        two {
+            bindings = <&kp NUMBER_2>;
+            key-positions = <1 36>;
+        };
+
+        three {
+            bindings = <&kp NUMBER_3>;
+            key-positions = <36 2>;
+        };
+
+        four {
+            bindings = <&kp NUMBER_4>;
+            key-positions = <36 10>;
+        };
+
+        five {
+            bindings = <&kp N5>;
+            key-positions = <36 11>;
+        };
+
+        six {
+            bindings = <&kp NUMBER_6>;
+            key-positions = <36 12>;
+        };
+
+        seven {
+            bindings = <&kp N7>;
+            key-positions = <36 21>;
+        };
+
+        eight {
+            bindings = <&kp N8>;
+            key-positions = <36 22>;
+        };
+
+        nine {
+            bindings = <&kp N9>;
+            key-positions = <23 36>;
+        };
     };
 
     behaviors {
