@@ -73,6 +73,7 @@
         delete {
             bindings = <&kp DELETE>;
             key-positions = <33 1>;
+            timeout-ms = <200>;
         };
     };
 
