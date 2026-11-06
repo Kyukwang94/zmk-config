@@ -49,6 +49,13 @@
             mods = <(MOD_LCTL)>;
             keep-mods = <(MOD_LCTL)>;
         };
+
+        questionmark: questionmark {
+            compatible = "zmk,behavior-tap-dance";
+            label = "QUESTIONMARK";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_SHIFT>, <&kp QUESTION>;
+        };
     };
 
     keymap {
