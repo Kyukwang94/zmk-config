@@ -74,6 +74,11 @@
             bindings = <&kp UNDER>;
             key-positions = <36 26>;
         };
+
+        equal {
+            bindings = <&kp EQUAL>;
+            key-positions = <36 8>;
+        };
     };
 
     behaviors {
