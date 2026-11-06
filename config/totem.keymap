@@ -65,9 +65,9 @@
 
         nav_num {
             bindings = <
-         &kp BACKSPACE  &kp BACKSPACE  &kp UP        &kp DELETE  &kp LA(DELETE)    &none            &none            &none        &none              &none
-         &kp HOME       &kp LEFT       &kp DOWN      &kp RIGHT   &kp END           &none            &none            &none        &kp DOUBLE_QUOTES  &none
-&kp ESC  &none          &none          &kp ENTER     &none       &kp UNDER         &none            &none            &none        &none              &none  &kp F5
+         &kp BACKSPACE  &kp BACKSPACE  &kp UP        &kp DELETE  &kp LA(DELETE)    &kp ENTER        &kp ENTER        &none        &none              &none
+         &kp HOME       &kp LEFT       &kp DOWN      &kp RIGHT   &kp END           &kp ENTER        &kp ENTER        &none        &kp DOUBLE_QUOTES  &none
+&kp ESC  &none          &none          &none         &none       &kp UNDER         &none            &none            &none        &none              &none  &kp F5
                                        &kp LEFT_WIN  &trans      &trans            &kp RIGHT_SHIFT  &kp RIGHT_SHIFT  &kp PERCENT
             >;
         };
