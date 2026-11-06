@@ -141,10 +141,10 @@
 
         base {
             bindings = <
-           &q_hold_alt  &kp W  &kp E                           &kp R      &kp T        &kp Y  &kp U    &kp I    &kp O       &kp P
-           &kp A        &kp S  &kp D                           &kp F      &kp G        &kp H  &kp J    &kp K    &kp L       &kp SEMI
-&kp LCTRL  &kp Z        &kp X  &kp C                           &kp V      &kp B        &kp B  &kp N    &kp M    &kp PERIOD  &kp COMMA  &questionmark
-                               &slash_hold_alt LEFT_ALT SLASH  &kp SPACE  &kp SPACE    &mo 2  &korean  &kp TAB
+           &q_hold_alt  &kp W  &kp E                           &kp R      &kp T        &y_hold_one  &u_hold_two  &kp I    &kp O       &kp P
+           &kp A        &kp S  &kp D                           &kp F      &kp G        &kp H        &kp J        &kp K    &kp L       &kp SEMI
+&kp LCTRL  &kp Z        &kp X  &kp C                           &kp V      &kp B        &kp B        &kp N        &kp M    &kp PERIOD  &kp COMMA  &questionmark
+                               &slash_hold_alt LEFT_ALT SLASH  &kp SPACE  &kp SPACE    &mo 2        &korean      &kp TAB
             >;
         };
 
