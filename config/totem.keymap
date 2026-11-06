@@ -99,7 +99,7 @@
             #binding-cells = <0>;
             bindings = <&mo 1>, <&mo 2>;
 
-            tapping-term-ms = <300>;
+            tapping-term-ms = <400>;
         };
 
         slash_hold_alt: slash_hold_alt {
