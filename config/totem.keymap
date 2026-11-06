@@ -75,8 +75,8 @@
         sym_func {
             bindings = <
            &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3       &none           &none             &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EQUAL  &kp F4   &kp BACKSPACE
-           &kp NUMBER_4  &kp N5        &kp NUMBER_6       &none           &none             &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp F8     &none    &kp F10
-&kp GRAVE  &kp N7        &kp N8        &kp N9             &kp UNDERSCORE  &kp EQUAL         &kp LESS_THAN         &kp GREATER_THAN       &kp F13    &kp F14  &kp F15        &kp F5
+           &kp NUMBER_4  &kp N5        &kp NUMBER_6       &none           &none             &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp F8     &none    &kp SINGLE_QUOTE
+&kp GRAVE  &kp N7        &kp N8        &kp N9             &kp UNDERSCORE  &kp EQUAL         &kp LESS_THAN         &kp GREATER_THAN       &kp F13    &kp F14  &kp F15           &kp F5
                                        &kp DOUBLE_QUOTES  &kp N0          &kp LEFT_SHIFT    &none                 &kp RIGHT_SHIFT        &none
             >;
         };
