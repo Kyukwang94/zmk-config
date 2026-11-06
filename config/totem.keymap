@@ -28,7 +28,7 @@
             key-positions = <3 2>;
         };
 
-        left_bracket {
+        esc {
             bindings = <&kp ESC>;
             key-positions = <2 33>;
             timeout-ms = <100>;
