@@ -65,19 +65,19 @@
 
         nav_num {
             bindings = <
-         &kp BACKSPACE  &kp BACKSPACE  &kp UP        &kp DELETE  &kp LA(DELETE)    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &none        &none              &none
-         &kp HOME       &kp LEFT       &kp DOWN      &kp RIGHT   &kp END           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none        &kp DOUBLE_QUOTES  &none
-&kp ESC  &none          &none          &kp ENTER     &none       &kp UNDER         &none                 &none                  &none        &none              &none  &kp F5
-                                       &kp LEFT_WIN  &trans      &trans            &kp RIGHT_SHIFT       &kp RIGHT_SHIFT        &kp PERCENT
+         &kp BACKSPACE  &kp BACKSPACE  &kp UP        &kp DELETE  &kp LA(DELETE)    &none            &none            &none        &none              &none
+         &kp HOME       &kp LEFT       &kp DOWN      &kp RIGHT   &kp END           &none            &none            &none        &kp DOUBLE_QUOTES  &none
+&kp ESC  &none          &none          &kp ENTER     &none       &kp UNDER         &none            &none            &none        &none              &none  &kp F5
+                                       &kp LEFT_WIN  &trans      &trans            &kp RIGHT_SHIFT  &kp RIGHT_SHIFT  &kp PERCENT
             >;
         };
 
         sym_func {
             bindings = <
-           &kp NUMBER_1   &kp NUMBER_2          &kp NUMBER_3           &kp NUMBER_4      &kp N0            &none        &kp F2           &kp F3   &kp F4   &kp BACKSPACE
-           &kp N5         &kp NUMBER_6          &kp N7                 &kp N8            &kp N9            &kp LC(TAB)  &none            &kp F8   &none    &kp F10
-&kp GRAVE  &kp LESS_THAN  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GREATER_THAN  &kp UNDERSCORE    &kp F5       &kp F12          &kp F13  &kp F14  &kp F15        &kp F16
-                                                &kp DOUBLE_QUOTES      &kp QUESTION      &kp LEFT_ALT      &none        &kp RIGHT_SHIFT  &none
+           &kp NUMBER_1   &kp NUMBER_2          &kp NUMBER_3           &kp NUMBER_4      &kp N0            &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp F3   &kp F4   &kp BACKSPACE
+           &kp N5         &kp NUMBER_6          &kp N7                 &kp N8            &kp N9            &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp F8   &none    &kp F10
+&kp GRAVE  &kp LESS_THAN  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GREATER_THAN  &kp UNDERSCORE    &none                 &kp F12                &kp F13  &kp F14  &kp F15        &kp F16
+                                                &kp DOUBLE_QUOTES      &kp QUESTION      &kp LEFT_ALT      &none                 &kp RIGHT_SHIFT        &none
             >;
         };
 
