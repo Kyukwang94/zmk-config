@@ -23,19 +23,14 @@
             key-positions = <1 2>;
         };
 
-        shift_combo {
-            bindings = <&kp LEFT_SHIFT>;
-            key-positions = <11 12>;
-        };
-
-        esc_combo {
-            bindings = <&kp ESC>;
-            key-positions = <0 1>;
-        };
-
         right_alt {
             bindings = <&kp RIGHT_ALT>;
             key-positions = <3 2>;
+        };
+
+        left_bracket {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <32 2>;
         };
     };
 
