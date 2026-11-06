@@ -69,12 +69,6 @@
             key-positions = <33 1>;
             timeout-ms = <200>;
         };
-
-        point {
-            bindings = <&kp SEMICOLON>;
-            key-positions = <16 33>;
-            timeout-ms = <300>;
-        };
     };
 
     behaviors {
@@ -142,15 +136,6 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
-        };
-
-        new_behavior: new_behavior {
-            compatible = "zmk,behavior-tap-dance";
-            label = "NEW_BEHAVIOR";
-            #binding-cells = <0>;
-            bindings = <&mo 1>, <&mo 2>;
-
-            tapping-term-ms = <400>;
         };
 
         esc_double_tab: esc_double_tab {
