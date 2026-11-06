@@ -92,6 +92,8 @@
             label = "KOREAN";
             #binding-cells = <0>;
             bindings = <&mo 1>, <&kp RIGHT_ALT>;
+
+            tapping-term-ms = <300>;
         };
 
         slash_hold_alt: slash_hold_alt {
@@ -109,8 +111,8 @@
             bindings = <&kp W>, <&kp TAB>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LALT)>;
-            keep-mods = <(MOD_LALT)>;
+            mods = <(MOD_LALT|MOD_LCTL)>;
+            keep-mods = <(MOD_LALT|MOD_LCTL)>;
         };
     };
 
