@@ -114,6 +114,26 @@
             mods = <(MOD_LALT|MOD_LCTL)>;
             keep-mods = <(MOD_LALT|MOD_LCTL)>;
         };
+
+        y_hold_one: y_hold_one {
+            compatible = "zmk,behavior-mod-morph";
+            label = "Y_HOLD_ONE";
+            bindings = <&kp Y>, <&kp NUMBER_1>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LCTL)>;
+            keep-mods = <(MOD_LCTL)>;
+        };
+
+        u_hold_two: u_hold_two {
+            compatible = "zmk,behavior-mod-morph";
+            label = "U_HOLD_TWO";
+            bindings = <&kp U>, <&kp NUMBER_2>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LCTL)>;
+            keep-mods = <(MOD_LCTL)>;
+        };
     };
 
     keymap {
