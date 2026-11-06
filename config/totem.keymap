@@ -69,6 +69,11 @@
             key-positions = <33 1>;
             timeout-ms = <200>;
         };
+
+        semi {
+            bindings = <&kp SEMI>;
+            key-positions = <36 15>;
+        };
     };
 
     behaviors {
