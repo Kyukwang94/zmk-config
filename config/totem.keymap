@@ -73,6 +73,7 @@
         underscore {
             bindings = <&kp UNDER>;
             key-positions = <36 26>;
+            timeout-ms = <150>;
         };
 
         equal {
