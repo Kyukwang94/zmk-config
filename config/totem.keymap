@@ -65,10 +65,10 @@
 
         nav_num {
             bindings = <
-         &kp BACKSPACE  &kp BACKSPACE  &kp UP     &kp DELETE  &kp HOME     &kp ENTER        &kp ENTER        &none  &none  &kp BACKSPACE
-         &kp HOME       &kp LEFT       &kp DOWN   &kp RIGHT   &kp END      &kp ENTER        &kp ENTER        &none  &none  &none
-&kp ESC  &none          &none          &kp ENTER  &none       &kp UNDER    &none            &none            &none  &none  &none          &kp F5
-                                       &none      &trans      &trans       &kp RIGHT_SHIFT  &kp RIGHT_SHIFT  &none
+         &kp BACKSPACE  &kp HOME  &kp UP     &kp END    &none        &kp ENTER        &kp ENTER        &none  &none  &kp BACKSPACE
+         &kp HOME       &kp LEFT  &kp DOWN   &kp RIGHT  &kp END      &kp ENTER        &kp ENTER        &none  &none  &none
+&kp ESC  &none          &none     &kp ENTER  &none      &kp UNDER    &none            &none            &none  &none  &none          &kp F5
+                                  &none      &trans     &trans       &kp RIGHT_SHIFT  &kp RIGHT_SHIFT  &none
             >;
         };
 
