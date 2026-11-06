@@ -30,7 +30,7 @@
 
         esc_combo {
             bindings = <&kp ESC>;
-            key-positions = <20 10>;
+            key-positions = <10 11>;
         };
 
         right_alt {
