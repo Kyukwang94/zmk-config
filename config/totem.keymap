@@ -67,7 +67,7 @@
         equal {
             bindings = <&kp EQUAL>;
             key-positions = <33 9>;
-            timeout-ms = <100>;
+            timeout-ms = <150>;
         };
     };
 
