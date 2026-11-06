@@ -35,7 +35,7 @@
 
         right_alt {
             bindings = <&kp RIGHT_ALT>;
-            key-positions = <14 13>;
+            key-positions = <3 4>;
         };
     };
 
