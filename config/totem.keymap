@@ -158,7 +158,7 @@
 
         base {
             bindings = <
-           &q_hold_alt  &kp W  &esc_double_tab                 &kp R                               &kp T        &y_hold_one    &u_hold_two    &kp I    &kp O       &kp P
+           &q_hold_alt  &kp W  &kp E                           &kp R                               &kp T        &y_hold_one    &u_hold_two    &kp I    &kp O       &kp P
            &kp A        &kp S  &kp D                           &kp F                               &kp G        &kp H          &kp J          &kp K    &kp L       &kp SEMI
 &kp LCTRL  &kp Z        &kp X  &kp C                           &kp V                               &kp B        &kp B          &kp N          &kp M    &kp PERIOD  &kp COMMA  &questionmark
                                &slash_hold_alt LEFT_ALT SLASH  &space_hold_shift LEFT_SHIFT SPACE  &kp SPACE    &kp RIGHT_ALT  &second_layer  &kp TAB
