@@ -73,7 +73,7 @@
         point {
             bindings = <&kp SEMICOLON>;
             key-positions = <16 33>;
-            timeout-ms = <200>;
+            timeout-ms = <300>;
         };
     };
 
