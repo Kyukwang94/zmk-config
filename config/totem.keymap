@@ -75,6 +75,11 @@
             key-positions = <33 1>;
             timeout-ms = <200>;
         };
+
+        underscore {
+            bindings = <&kp UNDER>;
+            key-positions = <36 26>;
+        };
     };
 
     behaviors {
@@ -134,6 +139,15 @@
             mods = <(MOD_LCTL)>;
             keep-mods = <(MOD_LCTL)>;
         };
+
+        space_hold_shift: space_hold_shift {
+            compatible = "zmk,behavior-hold-tap";
+            label = "SPACE_HOLD_SHIFT";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+        };
     };
 
     keymap {
@@ -141,10 +155,10 @@
 
         base {
             bindings = <
-           &q_hold_alt  &kp W  &kp E                           &kp R      &kp T        &y_hold_one  &u_hold_two  &kp I    &kp O       &kp P
-           &kp A        &kp S  &kp D                           &kp F      &kp G        &kp H        &kp J        &kp K    &kp L       &kp SEMI
-&kp LCTRL  &kp Z        &kp X  &kp C                           &kp V      &kp B        &kp B        &kp N        &kp M    &kp PERIOD  &kp COMMA  &questionmark
-                               &slash_hold_alt LEFT_ALT SLASH  &kp SPACE  &kp SPACE    &mo 2        &korean      &kp TAB
+           &q_hold_alt  &kp W  &kp E                           &kp R                               &kp T        &y_hold_one  &u_hold_two  &kp I    &kp O       &kp P
+           &kp A        &kp S  &kp D                           &kp F                               &kp G        &kp H        &kp J        &kp K    &kp L       &kp SEMI
+&kp LCTRL  &kp Z        &kp X  &kp C                           &kp V                               &kp B        &kp B        &kp N        &kp M    &kp PERIOD  &kp COMMA  &questionmark
+                               &slash_hold_alt LEFT_ALT SLASH  &space_hold_shift LEFT_SHIFT SPACE  &kp SPACE    &mo 2        &korean      &kp TAB
             >;
         };
 
