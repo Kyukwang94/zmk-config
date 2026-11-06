@@ -69,6 +69,11 @@
             key-positions = <33 9>;
             timeout-ms = <150>;
         };
+
+        enter {
+            bindings = <&kp ENTER>;
+            key-positions = <33 23>;
+        };
     };
 
     behaviors {
