@@ -56,7 +56,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "DOUBLETABRALT";
             #binding-cells = <0>;
-            bindings = <&kp L>, <&kp RIGHT_ALT>;
+            bindings = <&kp P>, <&kp RIGHT_ALT>;
 
             tapping-term-ms = <150>;
         };
