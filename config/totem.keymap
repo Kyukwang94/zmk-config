@@ -46,14 +46,26 @@
             label = "HOMEROW_MODS";
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping-term-ms = <150>;
-            quick-tap-ms = <125>;
+            tapping-term-ms = <125>;
+            quick-tap-ms = <100>;
             global-quick-tap;
             bindings = <&kp>, <&kp>;
         };
     };
 
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        ctrlz {
+            bindings = <&kp LC(Z)>;
+            key-positions = <12 13>;
+        };
+
+        ctrls {
+            bindings = <&kp LC(S)>;
+            key-positions = <17 16>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
