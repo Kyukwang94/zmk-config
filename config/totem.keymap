@@ -40,13 +40,13 @@
         };
 
         ctrl {
-            bindings = <&kp LEFT_SHIFT>;
+            bindings = <&kp LCTRL>;
             key-positions = <13 34>;
             timeout-ms = <120>;
         };
 
         alt {
-            bindings = <&kp LEFT_SHIFT>;
+            bindings = <&kp LEFT_ALT>;
             key-positions = <12 34>;
             timeout-ms = <120>;
         };
@@ -58,13 +58,13 @@
         };
 
         rightctrl {
-            bindings = <&kp LEFT_SHIFT>;
+            bindings = <&kp LCTRL>;
             key-positions = <16 35>;
             timeout-ms = <120>;
         };
 
         ralt {
-            bindings = <&kp LEFT_SHIFT>;
+            bindings = <&kp LEFT_ALT>;
             key-positions = <17 35>;
             timeout-ms = <120>;
         };
