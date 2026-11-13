@@ -35,37 +35,37 @@
 
         shift {
             bindings = <&kp LEFT_SHIFT>;
-            key-positions = <14 34>;
+            key-positions = <34 13>;
             timeout-ms = <120>;
         };
 
         ctrl {
             bindings = <&kp LCTRL>;
-            key-positions = <13 34>;
+            key-positions = <34 12>;
             timeout-ms = <120>;
         };
 
         alt {
             bindings = <&kp LEFT_ALT>;
-            key-positions = <12 34>;
+            key-positions = <34 11>;
             timeout-ms = <120>;
         };
 
         rightshfht {
             bindings = <&kp LEFT_SHIFT>;
-            key-positions = <15 35>;
+            key-positions = <35 16>;
             timeout-ms = <120>;
         };
 
         rightctrl {
             bindings = <&kp LCTRL>;
-            key-positions = <16 35>;
+            key-positions = <35 17>;
             timeout-ms = <120>;
         };
 
         ralt {
             bindings = <&kp LEFT_ALT>;
-            key-positions = <17 35>;
+            key-positions = <35 18>;
             timeout-ms = <120>;
         };
     };
