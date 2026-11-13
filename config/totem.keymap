@@ -47,7 +47,7 @@
 
         alt {
             bindings = <&kp LEFT_ALT>;
-            key-positions = <34 11>;
+            key-positions = <34 20>;
             timeout-ms = <80>;
         };
 
