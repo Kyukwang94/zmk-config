@@ -154,7 +154,7 @@
 
             bindings = <
         &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp ASTERISK  &kp SQT     &kp DQT
-        &none     &trans  &trans    &trans    &trans       &none      &none      &trans        &trans      &kp RA(O)
+        &none     &trans  &trans    &trans    &trans       &kp MINUS  &kp PLUS   &trans        &trans      &kp RA(O)
 &trans  &none     &trans  &kp F3    &kp F4    &kp F5       &kp UNDER  &kp EQUAL  &none         &kp C_NEXT  &kp BSLH   &kp SLASH
                           &trans    &trans    &mo 3        &trans     &none      &trans
             >;
