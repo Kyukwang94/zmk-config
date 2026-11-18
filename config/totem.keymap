@@ -73,6 +73,11 @@
             bindings = <&kp LC(LEFT_SHIFT)>;
             key-positions = <33 13 12>;
         };
+
+        altctrl {
+            bindings = <&kp LA(LCTRL)>;
+            key-positions = <11 12 34>;
+        };
     };
 
     behaviors {
