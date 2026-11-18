@@ -68,6 +68,11 @@
             key-positions = <35 18>;
             timeout-ms = <120>;
         };
+
+        ctrlshift {
+            bindings = <&kp LC(LEFT_SHIFT)>;
+            key-positions = <33 13 12>;
+        };
     };
 
     behaviors {
